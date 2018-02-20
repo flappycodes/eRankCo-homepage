@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Esty Rank</title>
-	<link rel="stylesheet" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 	<style>
@@ -140,9 +140,146 @@
 	}
 
 	@media (min-width: 576px) {
-		.esty-rank-pro, .etsy-rank-tools, .subcription {
+		.esty-rank-pro, .etsy-rank-tools, .subcription, .feautured_blogs {
 		    padding: 4rem 2rem;
 		}
+	}
+
+	.card-blockquote {
+	    padding: 0;
+	    margin-bottom: 0;
+	    border-left: 0;
+	}
+
+	.card-block {
+	    -webkit-box-flex: 1;
+	    -webkit-flex: 1 1 auto;
+	    -ms-flex: 1 1 auto;
+	    flex: 1 1 auto;
+	    padding: 1.25rem;
+	}
+
+	#basic-addon2 {
+		background-color: #016ba5;
+		color: white;
+	}
+
+	.feautured_blogs {
+		background-color: rgba(18, 157, 226, 1);
+	    color: #fff;
+	    margin-top: 3%;
+	}
+
+	.feautured_blogs > div > p > a {
+		color: #f28b0d;
+	}
+
+	.card-12 {
+		color: #fff;
+	    background-image: url("dist/img/etsy blog img Featured Big.jpg");
+	    background-size: cover; 
+    	background-repeat: no-repeat;
+    	border-color: rgba(18, 157, 226, 1);
+	}
+
+	.card-3-1 {
+		color: #fff;
+	    background-image: url("dist/img/etsy blog img Featured small 1.jpg");
+	    background-size: cover; 
+    	background-repeat: no-repeat;
+    	height: 254px;
+    	border-color: rgba(18, 157, 226, 1);
+	}
+
+	.card-3-2 {
+		color: #fff;
+	    background-image: url("dist/img/etsy blog img Featured small 2.jpg");
+	    background-size: cover; 
+    	background-repeat: no-repeat;
+    	height: 254px;
+    	border-color: rgba(18, 157, 226, 1);
+	}
+
+	.card-3-3 {
+		color: #fff;
+	    background-image: url("dist/img/etsy blog img Featured small 3.jpg");
+	    background-size: cover; 
+    	background-repeat: no-repeat;
+    	height: 254px;
+    	border-color: rgba(18, 157, 226, 1);
+	}
+
+	.card-3-4 {
+		color: #fff;
+	    background-image: url("dist/img/etsy blog img Featured small 4.jpg");
+	    background-size: cover; 
+    	background-repeat: no-repeat;
+    	height: 254px;
+    	border-color: rgba(18, 157, 226, 1);
+	}
+
+	.card-block-large {
+		margin-top: 75%;
+		background-color: rgba(0, 0, 0, .5);
+	}
+
+	.card-block-small {
+		margin-top: 120px;
+		font-size: 13px;
+		background-color: rgba(0, 0, 0, .5);
+	}
+
+	.blog-box-padding {
+		padding-bottom: 15px;
+	}
+
+	footer {
+		padding-top: 50px;
+		color: white;
+		background-color: #3c434b;
+	}
+
+	footer > div > div > div > p {
+		color: grey !important;
+	}
+	
+	.footer-product-links > ul, .footer-developer-links > ul, .footer-company-links > ul, .footer-links > ul {
+		margin-bottom: 0;
+	    padding-left: 0; 
+	    list-style: none; 
+	}
+	    
+	.footer-product-links > ul > li, .footer-developer-links > ul > li, .footer-company-links > ul > li, .footer-links > ul > li {
+		position: relative;
+    	display: block;
+    	text-align: left;
+    	padding: 15px 0 0 0;
+    	font-size: 13px;
+	}
+
+	.footer-hr {
+		color: white;
+	    display: block;
+	    height: 100%;
+	    width: 100%;
+	    border: 0;
+	    border-top: 1px solid #ccc;
+	    margin: 1em 0;
+	    padding: 0;
+	}
+
+	.footer-bottom {
+		color: white !important;
+		font-size: 13px;
+	}
+
+	.footer-img {
+		float: right;
+		padding-left: 15px;
+	}
+
+	.footer-margin {
+		margin-bottom: 3rem;
 	}
 	</style>
 </head>
@@ -157,15 +294,15 @@
 	        <div class="navbar-collapse collapse" id="navbarsExampleContainer" aria-expanded="false" style="">
 	          	<ul class="navbar-nav mr-auto">
 	            	<li class="nav-item dropdown">
-		              	<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOOLS</a>
-		              	<div class="dropdown-menu" aria-labelledby="dropdown02">
+		              	<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">TOOLS</a>
+		              	<div class="dropdown-menu" aria-labelledby="dropdown01">
 		                	<a class="dropdown-item" href="#">Action</a>
 		                	<a class="dropdown-item" href="#">Another action</a>
 		                	<a class="dropdown-item" href="#">Something else here</a>
 		              	</div>
 	            	</li>
 	            	<li class="nav-item dropdown">
-		              	<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">REPORTS</a>
+		              	<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">REPORTS</a>
 		              	<div class="dropdown-menu" aria-labelledby="dropdown02">
 		                	<a class="dropdown-item" href="#">Action</a>
 		                	<a class="dropdown-item" href="#">Another action</a>
@@ -354,8 +491,177 @@
 			</div>
 		</div>
 	</div>
-<script src="plugins/jQuery/jQuery-2.2.0.min.js"></script>
-<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>	
+	<div class="container">
+		<div align="center">
+			<h2 class="rank-tools-text-color">Lorem ipsum vol kal feran</h2>
+			<p class="jumbo-text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quisquam pariatur, quidem fugiat. Ipsam soluta, libero non ipsa cum, labore porro sed odio maiores eum voluptatum, suscipit eius nesciunt nemo?</p>
+		</div>
+		<div class="row">
+			<div class="col-md-4 blog-box-padding">
+				<div class="card">
+				  	<div class="card-header">
+				  		Upcoming
+				  		<button class="btn btn-primary pull-right">View Calendar &nbsp;<i class="fa fa-long-arrow-right"></i></button>
+				  	</div>
+				  	<div class="card-block">
+				    	<blockquote class="card-blockquote">
+				      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				      		<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+				    	</blockquote>
+				  	</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-box-padding">
+				<div class="card">
+				  	<div class="card-header">
+				  		Most Sales Yesterday
+				  		<button class="btn btn-primary pull-right">See more &nbsp;<i class="fa fa-long-arrow-right"></i></button>
+				  	</div>
+				  	<div class="card-block">
+				    	<blockquote class="card-blockquote">
+				      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				      		<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+				    	</blockquote>
+				  	</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-box-padding">
+				<div class="card">
+				  	<div class="card-header">
+				  		Etsy Reach
+				  		<button class="btn btn-primary pull-right">See more &nbsp;<i class="fa fa-long-arrow-right"></i></button>
+				  	</div>
+				  	<div class="card-block">
+				    	<blockquote class="card-blockquote">
+				      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				      		<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+				    	</blockquote>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		<div align="center" class="blog-box-padding">
+			<h2 class="rank-tools-text-color">What is your Etsy rank?</h2>
+			<p class="jumbo-text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quisquam pariatur, quidem fugiat. Ipsam soluta, libero non ipsa cum, labore porro sed odio maiores eum voluptatum, suscipit eius nesciunt nemo?</p>
+		</div>
+		<div class="jumbo-text-description">
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="Enter Shop name..." aria-label="Enter Shop name..." aria-describedby="basic-addon2">
+		        <div class="input-group-append">
+		            <span class="input-group-text" id="basic-addon2">Submit &nbsp;<i class="fa fa-long-arrow-right"></i></span>
+		        </div>
+			</div>
+		</div>
+	</div>
+	<div class="feautured_blogs">
+		<div align="center">
+			<h2>Fetured Blogs</h2>
+			<p>Tempar incident ut labore et dolore magna aliqua. <a href="#">All Blogs <i class="fa fa-long-arrow-right"></i></a></p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 blog-box-padding">
+					<div class="card card-inverse card-12">
+					  <div class="card-block card-block-large">
+					    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					    <a href="#" class="btn btn-register">Read more <i class="fa fa-long-arrow-right"></i></a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3 blog-box-padding">
+					<div class="blog-box-padding">
+						<div class="card card-inverse card-3-1">
+						  <div class="card-block card-block-small">
+						    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						    <a href="#" class="btn btn-register">Read more <i class="fa fa-long-arrow-right"></i></a>
+						  </div>
+						</div>
+					</div>
+					<div>
+						<div class="card card-inverse card-3-2">
+						  <div class="card-block card-block-small">
+						    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						    <a href="#" class="btn btn-register">Read more <i class="fa fa-long-arrow-right"></i></a>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 blog-box-padding">
+					<div class="blog-box-padding">
+						<div class="card card-inverse card-3-3">
+						  <div class="card-block card-block-small">
+						    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						    <a href="#" class="btn btn-register">Read more <i class="fa fa-long-arrow-right"></i></a>
+						  </div>
+						</div>
+					</div>
+					<div>
+						<div class="card card-inverse card-3-4">
+						  <div class="card-block card-block-small">
+						    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						    <a href="#" class="btn btn-register">Read more <i class="fa fa-long-arrow-right"></i></a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>EtsyRank</h2>
+					<p style="margin-right: 15%; padding-top: 25px;">The Term 'Etsy' is a trademark of Etsy, Inc. This application uses the Etsy API but is not endorsed or certified by Etsy, Inc.</p>
+				</div>
+				<div class="col-md-2 footer-product-links">
+					<p>Products</p>
+					<ul>
+						<li>Keyword Tool</li>
+						<li>Spell Checker</li>
+						<li>Rank Checker</li>
+						<li>List Grades</li>
+						<li>Compare</li>
+					</ul>
+				</div>
+				<div class="col-md-2 footer-developer-links">
+					<p>Developers</p>
+					<ul>
+						<li>API</li>
+						<li>Documentation</li>
+					</ul>
+				</div>
+				<div class="col-md-2 footer-links">
+					<p>Links</p>
+					<ul>
+						<li>Etsy</li>
+						<li>EtsyRank Pro</li>
+						<li>Blogs</li>
+					</ul>
+				</div>
+				<div class="col-md-2 footer-company-links">
+					<p>Company</p>
+					<ul>
+						<li>About</li>
+						<li>Privacy Policy</li>
+						<li>Terms of Use</li>
+						<li>Contact Us</li>
+					</ul>
+				</div>
+				<hr class="footer-hr">
+				<div class="col-md-6 footer-margin">
+					<p class="footer-bottom">Copyright &copy; 2015-2018 EtsyRank</p>
+				</div>
+				<div class="col-md-6 footer-margin">
+					<img class="footer-img" src="dist/img/Etsy insta icon.png" alt="dist/img/Etsy insta icon.png">
+					<img class="footer-img" src="dist/img/Etsy g plus icon.png" alt="dist/img/Etsy g plus icon.png">
+					<img class="footer-img" src="dist/img/Etsy twitt icon.png" alt="dist/img/Etsy twitt icon.png">
+					<img class="footer-img" src="dist/img/Etsy fb icon.png" alt="dist/img/Etsy fb icon.png">
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>	
 <script src="dist/js/bootstrap.min.js"></script>
 </body>
 </html>
