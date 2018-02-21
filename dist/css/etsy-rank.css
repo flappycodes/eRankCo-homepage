@@ -1,0 +1,343 @@
+body {
+	color: #3c434a !important;
+	font-size: 16px !important;
+	line-height: 24px !important;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.container > a.navbar-brand {
+	color: #fff !important;
+}
+
+.container > a.navbar-brand:hover {
+	color: #ff8b00 !important;
+}
+
+.container > div.navbar-collapse > ul > li > a, .container > div.navbar-collapse > ul > li > i {
+	color: rgba(255,255,255,0.5) !important;
+}
+
+.container > div.navbar-collapse > ul > li > a:hover, .container > div.navbar-collapse > ul > li > i:hover  {
+	color: rgba(255,255,255,1) !important;
+}
+
+/* .nav-ul-padding {
+	padding-bottom: 15px;
+} */
+
+a {
+	color: #006ba5 !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ff8b00 !important;
+}
+
+.navbar-brand {
+	margin-right: 4rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	margin-right: 1rem !important;
+}
+
+.bg-dark {
+	background-color: #139ee3 !important;
+}
+
+.btn-outline-default {
+	color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-outline-default:hover {
+	color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-register {
+	color: #fff;
+    background-color: #ff8b00;
+    border-color: #ff8b00;
+}
+
+.btn-register:hover {
+	color: #ff8b00;
+    background-color: transparent;
+    border-color: #ff8b00;
+}
+
+@media (min-width: 576px){
+	.bd-pageheader {
+	    padding-top: 4rem;
+	    padding-bottom: 4rem;
+	    margin-bottom: 3rem;
+	    text-align: left;
+	}
+}
+
+.bd-pageheader {
+    color: #fff;
+    background-image: url("../../dist/img/Header banner background img etsy.png");
+    background-size: 102.5% 100%; 
+	background-repeat: no-repeat;
+}
+
+.bd-pageheader > div > .row > div > h2 {
+	margin-top: 20% !important;
+	font-family: 'Poppins Bold', sans-serif;
+	font-size: 38px !important;
+}
+
+.btn-lg-margin-bottom {
+	margin-bottom: 30px !important;
+}
+
+.etsy-rank-tools {
+	background-color: #006ba5;
+	color: #fff;
+	margin-bottom: 2rem;
+	margin-top: 3%;
+}
+
+.jumbo-text-description {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.featured {
+	background-color: #fbfcfe;
+	padding-top: 15px;
+}
+
+.featured > div > div > div > h3 {
+	font-size: 24px;
+	font-family: 'Poppins Semi-Bold', sans-serif;
+	padding-top: 15px;
+}
+
+.rank-tools-img {
+	width: 100%;
+	height: 100%;
+}
+
+.rank-tools-text-color {
+	color: #006ba5;
+}
+
+.rank-tools-margins {
+	margin-top: 5% !important;
+}
+
+.esty-rank-pro {
+	background-color: #d17100;
+    color: #fff;
+    margin-top: 3%;
+    margin-bottom: 2rem;
+}
+
+.subcription {
+	background: linear-gradient(to bottom, rgba(220, 131, 27, 1), rgba(209, 113, 0, 1));
+    color: #fff;
+    margin-top: 3%;
+    margin-bottom: 2rem;
+}
+
+.subcription > div > h2 {
+	color: #006ba5;
+}
+
+.subcription-box {
+	border-radius: 10px;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	padding: 20px;
+	margin-top: 5%;
+	font-size: 12px;
+}
+
+.subcription-box > div {
+	text-align: left !important;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+.subcription-box > h4 > span {
+	padding: 2px;
+	background-color: #f4bf4d; 
+	border-radius: 10px;
+	color: white;
+}
+
+.subcription-box > div > span {
+	color: blue;
+}
+
+@media (min-width: 576px) {
+	.esty-rank-pro, .etsy-rank-tools, .subcription, .feautured_blogs {
+	    padding: 4rem 2rem;
+	}
+}
+
+.card-blockquote {
+    padding: 0;
+    margin-bottom: 0;
+    border-left: 0;
+}
+
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+#basic-addon2 {
+	background-color: #006ba5;
+	color: white;
+}
+
+.feautured_blogs {
+	background-color: rgba(18, 157, 226, 1);
+    color: #fff;
+    margin-top: 3%;
+}
+
+.feautured_blogs > div > p > a {
+	color: #f28b0d;
+}
+
+.card-12 {
+	color: #fff;
+    background-image: url("../../dist/img/etsy blog img Featured Big.jpg");
+    background-size: cover; 
+	background-repeat: no-repeat;
+	border-color: rgba(18, 157, 226, 1);
+}
+
+.card-3-1 {
+	color: #fff;
+    background-image: url("../../dist/img/etsy blog img Featured small 1.jpg");
+    background-size: cover; 
+	background-repeat: no-repeat;
+	height: 254px;
+	border-color: rgba(18, 157, 226, 1);
+}
+
+.card-3-2 {
+	color: #fff;
+    background-image: url("../../dist/img/etsy blog img Featured small 2.jpg");
+    background-size: cover; 
+	background-repeat: no-repeat;
+	height: 254px;
+	border-color: rgba(18, 157, 226, 1);
+}
+
+.card-3-3 {
+	color: #fff;
+    background-image: url("../../dist/img/etsy blog img Featured small 3.jpg");
+    background-size: cover; 
+	background-repeat: no-repeat;
+	height: 254px;
+	border-color: rgba(18, 157, 226, 1);
+}
+
+.card-3-4 {
+	color: #fff;
+    background-image: url("../../dist/img/etsy blog img Featured small 4.jpg");
+    background-size: cover; 
+	background-repeat: no-repeat;
+	height: 254px;
+	border-color: rgba(18, 157, 226, 1);
+}
+
+.card-block-large {
+	margin-top: 75%;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.card-block-small {
+	margin-top: 86px;
+	font-size: 13px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.blog-box-padding {
+	padding-bottom: 15px;
+}
+
+.feature-blog-box-bottom {
+	padding-bottom: 22px;
+}
+
+.feature-blog-box-top {
+	padding-top: 22px;
+}
+
+footer {
+	padding-top: 50px;
+	color: white;
+	background-color: #3c434b;
+}
+
+footer > div > div > div > p {
+	color: grey !important;
+}
+
+.footer-product-links > ul, .footer-developer-links > ul, .footer-company-links > ul, .footer-links > ul {
+	margin-bottom: 0;
+    padding-left: 0; 
+    list-style: none; 
+}
+    
+.footer-product-links > ul > li, .footer-developer-links > ul > li, .footer-company-links > ul > li, .footer-links > ul > li {
+	position: relative;
+	display: block;
+	text-align: left;
+	padding: 15px 0 0 0;
+	font-size: 13px;
+}
+
+.footer-product-links > ul > li > a, .footer-developer-links > ul > li > a, .footer-company-links > ul > li > a, .footer-links > ul > li > a {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.footer-product-links > ul > li > a:hover,
+.footer-developer-links > ul > li > a:hover,
+.footer-company-links > ul > li > a:hover,
+.footer-links > ul > li > a:hover {
+	color: #ff8b00 !important;
+	text-decoration: none;
+}
+
+.footer-hr {
+	color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+.footer-bottom {
+	color: white !important;
+	font-size: 13px;
+}
+
+.footer-img {
+	float: right;
+	padding-left: 15px;
+}
+
+.footer-margin {
+	margin-bottom: 3rem;
+}
