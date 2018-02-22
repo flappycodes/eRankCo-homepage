@@ -25,6 +25,11 @@ body {
 	padding-bottom: 15px;
 } */
 
+.no-padding {
+	padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
 a {
 	color: #006ba5 !important;
 }
@@ -82,13 +87,30 @@ a:hover {
 
 .bd-pageheader {
     color: #fff;
-    background-image: url("../../dist/img/Header banner background img etsy.png");
-    background-size: 102.5% 100%; 
+    background-image: url("../../dist/img/Header banner background plain.png");
+    background-size: cover; 
 	background-repeat: no-repeat;
 }
 
+@media (min-width: 576px) {
+	.bd-pageheader {
+	    padding-top: 4rem;
+	    padding-bottom: 4rem;
+	    margin-bottom: 0rem !important;
+	    text-align: left;
+	}
+}
+
+.bd-pageheader > div > .row {
+	margin-top: 8% !important;
+	margin-bottom: 69px !important;
+}
+
+.bd-pageheader > div > .row > div > img{
+	width: 100%;
+}
+
 .bd-pageheader > div > .row > div > h2 {
-	margin-top: 20% !important;
 	font-family: 'Poppins Bold', sans-serif;
 	font-size: 38px !important;
 }
@@ -334,10 +356,35 @@ footer > div > div > div > p {
 }
 
 .footer-img {
-	float: right;
+	/*margin-top: 4.5%;*/
 	padding-left: 15px;
 }
 
 .footer-margin {
 	margin-bottom: 3rem;
+}
+
+.link-list-margin {
+	margin-bottom: 20px;
+}
+
+#footer-bottom-wrap {
+	background-color: #21282a;
+}
+
+#footer-bottom-wrap > .container > .row > p {
+    color: #b2b2b2;
+    font-size: 0.8125em;
+    line-height: 54px;
+    position: relative;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#footer-bottom-wrap > .container > .row > p > a{
+    color: white !important;
+}
+
+#footer-bottom-wrap > .container > .row > p > a:hover{
+    color: #ff8b00 !important;
 }
